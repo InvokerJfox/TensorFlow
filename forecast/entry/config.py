@@ -14,7 +14,7 @@ FORECAST_END_DAY = dt.datetime(2016, 2, 6)  # 预测数据的结束日期 #61
 # TRAINING_DATA_PERCENT = 0.75  # 测试-实验百分比,注:这里假定天气预报始终是准确的
 
 # 数据路径
-DATASET_SALES_PATH = 'data/900102700027024.txt'
+DATASET_SALES_PATH = 'data/024.txt'
 DATASET_WEATHER_PATH = 'data/HZWeather.csv'
 
 # 参数-数据补全

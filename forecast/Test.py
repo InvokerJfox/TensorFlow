@@ -7,7 +7,7 @@ import pandas
 # my_matrix = np.loadtxt('data/HZWeather.csv', dtype=np.str)
 # print((config.FORECAST_START_DAY - config.FORECAST_END_DAY).days * 3)
 # raise ValueError('FORECAST_END_DAY  < FORECAST_START_DAY')
-# data = np.loadtxt('data/900102700027024.txt', delimiter=',', dtype=bytes).astype(str)
+# data = np.loadtxt('data/024.txt', delimiter=',', dtype=bytes).astype(str)
 # print(data)
 # ls = ymh(data, [0])  # args1"data, args:list of date
 # ls.sort(key=lambda x: x[0])
@@ -16,7 +16,7 @@ import pandas
 # print('min:' + str(ls[0]))  # 2012/9/2
 # b = a[:, 1].astype(np.int32)
 # print(b)
-# data = np.loadtxt('data/900102700027024.txt', delimiter=',', dtype=bytes).astype(str)
+# data = np.loadtxt('data/024.txt', delimiter=',', dtype=bytes).astype(str)
 # it1 = iter(data)
 # it2 = iter(next(it1))
 # it3 = iter(next(it2))
@@ -30,7 +30,7 @@ import pandas
 
 # data = Data(config)
 
-# data = np.loadtxt('data/900102700027024.txt', delimiter=',', dtype=bytes).astype(str)
+# data = np.loadtxt('data/024.txt', delimiter=',', dtype=bytes).astype(str)
 # ls = ymh(data, [0])  # args1"data, args:list of date
 # ls.sort(key=lambda x: x[0])
 # # print(np.mat(ls)[:, 0])
